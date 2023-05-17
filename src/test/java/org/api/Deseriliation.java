@@ -27,6 +27,8 @@ public class Deseriliation {
 	    System.out.println(studentinfo.getId());
 	    System.out.println(studentinfo.getName());
 	    
+	    System.out.println("Noelraj");
+	    
 	    ArrayList course = readValue.getCourse();
 	    
 	    for (int i = 0; i < course.size(); i++) {
