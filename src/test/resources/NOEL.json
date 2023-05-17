@@ -1,0 +1,149 @@
+[
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2023-05-15T02:58:14.266Z",
+				"line": 11,
+				"name": "verifying instagram  login functioanlity",
+				"description": "",
+				"id": "instagram-functionality-testing;verifying-instagram--login-functioanlity;;2",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 4825000000,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "user should be in the instagram login page",
+						"match": {
+							"location": "org.stepdef.InstagramStepdef.user_should_be_in_the_instagram_login_page()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 292000000,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "user should enter the \"Noel\" and \"Noel@123\"",
+						"match": {
+							"arguments": [
+								{
+									"val": "\"Noel\"",
+									"offset": 22
+								},
+								{
+									"val": "\"Noel@123\"",
+									"offset": 33
+								}
+							],
+							"location": "org.stepdef.InstagramStepdef.user_should_enter_the_and(java.lang.String,java.lang.String)"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 126000000,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "user should click the login button",
+						"match": {
+							"location": "org.stepdef.InstagramStepdef.user_should_click_the_login_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "user should pass the final message",
+						"match": {
+							"location": "org.stepdef.InstagramStepdef.user_should_pass_the_final_message()"
+						},
+						"keyword": "Then "
+					}
+				]
+			},
+			{
+				"start_timestamp": "2023-05-15T02:58:19.560Z",
+				"line": 12,
+				"name": "verifying instagram  login functioanlity",
+				"description": "",
+				"id": "instagram-functionality-testing;verifying-instagram--login-functioanlity;;3",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 3373000000,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "user should be in the instagram login page",
+						"match": {
+							"location": "org.stepdef.InstagramStepdef.user_should_be_in_the_instagram_login_page()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 380000000,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "user should enter the \"Kalai\" and \"Kalai@123\"",
+						"match": {
+							"arguments": [
+								{
+									"val": "\"Kalai\"",
+									"offset": 22
+								},
+								{
+									"val": "\"Kalai@123\"",
+									"offset": 34
+								}
+							],
+							"location": "org.stepdef.InstagramStepdef.user_should_enter_the_and(java.lang.String,java.lang.String)"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 136000000,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "user should click the login button",
+						"match": {
+							"location": "org.stepdef.InstagramStepdef.user_should_click_the_login_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "user should pass the final message",
+						"match": {
+							"location": "org.stepdef.InstagramStepdef.user_should_pass_the_final_message()"
+						},
+						"keyword": "Then "
+					}
+				]
+			}
+		],
+		"name": "Instagram functionality testing",
+		"description": "",
+		"id": "instagram-functionality-testing",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/Noel/login.feature",
+		"tags": []
+	}
+]

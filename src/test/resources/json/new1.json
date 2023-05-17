@@ -1,0 +1,13 @@
+{
+	"id": 111,
+	"name": "Kalaifrnd",
+	"workingstatus": true,
+	"studentinfo": {
+		"id": 122,
+		"name": "Kalaifrnd"
+	},
+	"course": [
+		"java",
+		"selenium"
+	]
+}

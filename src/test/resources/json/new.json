@@ -1,0 +1,31 @@
+
+
+{
+	"id": 111,
+	"name": "Noel",
+	"workingstatus": true,
+	"studentinfo": {
+		"id": 111,
+		"name": "Noel"
+	},
+	"course": [
+		"Java",
+		"selenium",
+		"Framework"
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
